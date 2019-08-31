@@ -72,3 +72,5 @@ and click on "Finish"
 ## How to Push your code
 
 ### You have Successfully completed Task 3
+
+### [Previous Task](https://github.com/technojam/pre-membership-task/blob/master/Android%20Task/Task2/Make_first_app.md)
