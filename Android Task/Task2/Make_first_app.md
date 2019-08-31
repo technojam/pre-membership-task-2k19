@@ -38,7 +38,7 @@ generate a birthday card.
 
 The app look something like this.
 
-![app activity 1]()
+![app activity 1](https://github.com/technojam/pre-membership-task/blob/master/Android%20Task/Task3/image/app%20activity%201.PNG)
 
 In this first activity there are three view which take text and one button to select birthday pic from mobile albums
 and one button to send you to othe activity
@@ -52,7 +52,7 @@ buttom 2 - will send you to second activity.
 
 Now you have to make second activity something like this.
 
-![app activity 2]()
+![app activity 2](https://github.com/technojam/pre-membership-task/blob/master/Android%20Task/Task3/image/app%20activity2.PNG)
 
 In thi you have to take the info from first activity and use it {pass the data from activity one to two using intent}
 the image which you have selected on first activity will be use as a background on second activity.
