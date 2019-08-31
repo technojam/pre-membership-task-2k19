@@ -70,3 +70,5 @@ And on SDK Tools tab Select all and click on "Apply"
 then accept the term and click "Ok"
 
 ### !! Nice your Android Studio is installed successfully !!
+
+### !! You have Successfully completed Task 1 !!

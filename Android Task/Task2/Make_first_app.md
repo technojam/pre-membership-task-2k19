@@ -37,3 +37,27 @@ in first activity you will take information from user, and in second activity yo
 generate a birthday card.
 
 The app look something like this.
+
+![app activity 1]()
+
+In this first activity there are three view which take text and one button to select birthday pic from mobile albums
+and one button to send you to othe activity
+
+View 1 - will take name of sender.
+View 2 - will take name to send.
+View 3 - will take message og birthday.
+button 1 -  select pic from mobile albums.
+View 4 - will show selected pic.
+buttom 2 - will send you to second activity.
+
+Now you have to make second activity something like this.
+
+![app activity 2]()
+
+In thi you have to take the info from first activity and use it {pass the data from activity one to two using intent}
+the image which you have selected on first activity will be use as a background on second activity.
+and put the "From Name", "To Name" and  "Message" on it.
+
+### After compleating the App Push it as given in Task 3 [click here to see](https://github.com/technojam/pre-membership-task/blob/master/Android%20Task/Task3/Push_App_To_Github.md)
+
+### !! You have Successfully completed Task 2 !!
