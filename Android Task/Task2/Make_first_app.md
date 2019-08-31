@@ -9,7 +9,8 @@ To make this app you need to compleate these two course.
 
 ### First Course "User Interface"
 
-In this you will learn how to create layout in XML.\n
+In this you will learn how to create layout in XML.
+
 You will learn about element like Buttons, TextView, Image View Layout like Linear layout, Relative layout etc.
 
 After compleating this you will know to create a static single activity app.
@@ -18,7 +19,8 @@ After compleating this you will know to create a static single activity app.
 
 ### Second Course "Working With Java"
 
-In this you learn to write backend in Java.\n
+In this you learn to write backend in Java.
+
 You will learn about how to take input from user and how to response on button click which will make your app more interactive and user friendly.
 in this you will also learn how to make multi-activity app and how to go from one app to other app like from your app to gmail, alarm, call, etc.
 
@@ -31,5 +33,3 @@ in first activity you will take information from user, and in second activity yo
 generate a birthday card.
 
 The app look something like this.
-
-
