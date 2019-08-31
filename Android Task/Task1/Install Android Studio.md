@@ -38,12 +38,12 @@ Android Studio is the official Integrated Development Environment (IDE) for Andr
 
     6. The status bar displays the status of your project and the IDE itself, as well as any warnings or messages.
 
-## How i Install Android Studio
+## How To Install Android Studio
 
     First, be sure you download the latest version of Android Studio.
     To Download Android Studio :- [Get latest version of Android Studio](https://developer.android.com/studio/)
 
-### For Windows :- [Instal in Windows](https://developer.android.com/studio/install#windows)
+### For Windows :- [Install in Windows](https://developer.android.com/studio/install#windows)
 
 ### For Mac :- [Install in Mac](https://developer.android.com/studio/install#mac)
 
