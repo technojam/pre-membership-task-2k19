@@ -26,24 +26,24 @@ Android Studio is the official Integrated Development Environment (IDE) for Andr
 
 ![Image of Android Studio](https://developer.android.com/studio/images/intro/main-window_2-2_2x.png)
 
-    1. The toolbar lets you carry out a wide range of actions, including running your app and launching Android tools.
+   1. The toolbar lets you carry out a wide range of actions, including running your app and launching Android tools.
 
-    2. The navigation bar helps you navigate through your project and open files for editing. It provides a more compact view of the structure visible in the Project window.
+   2. The navigation bar helps you navigate through your project and open files for editing. It provides a more compact view of the structure visible in the Project window.
 
-    3. The editor window is where you create and modify code. Depending on the current file type, the editor can change. For example, when viewing a layout file, the editor displays the Layout Editor.
+   3. The editor window is where you create and modify code. Depending on the current file type, the editor can change. For example, when viewing a layout file, the editor displays the Layout Editor.
 
-    4. The tool window bar runs around the outside of the IDE window and contains the buttons that allow you to expand or collapse individual tool windows.
+   4. The tool window bar runs around the outside of the IDE window and contains the buttons that allow you to expand or collapse individual tool windows.
 
-    5. The tool windows give you access to specific tasks like project management, search, version control, and more. You can expand them and collapse them.
+   5. The tool windows give you access to specific tasks like project management, search, version control, and more. You can expand them and collapse them.
 
-    6. The status bar displays the status of your project and the IDE itself, as well as any warnings or messages.
+   6. The status bar displays the status of your project and the IDE itself, as well as any warnings or messages.
 
-## How i Install Android Studio
+## How To Install Android Studio
 
-    First, be sure you download the latest version of Android Studio.
-    To Download Android Studio :- [Get latest version of Android Studio](https://developer.android.com/studio/)
+   First, be sure you download the latest version of Android Studio.
+   To Download Android Studio :- [Get latest version of Android Studio](https://developer.android.com/studio/)
 
-### For Windows :- [Instal in Windows](https://developer.android.com/studio/install#windows)
+### For Windows :- [Install in Windows](https://developer.android.com/studio/install#windows)
 
 ### For Mac :- [Install in Mac](https://developer.android.com/studio/install#mac)
 
