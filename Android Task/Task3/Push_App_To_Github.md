@@ -63,3 +63,6 @@ for example your folder location is C:\User\UserName\Desktop\NewFolder\forexampl
 so you have to put your project name at the end of your folder location in save location C:\User\UserName\Desktop\NewFolder\forexample\projectName.
 
 ![save location](https://github.com/technojam/pre-membership-task/blob/master/Android%20Task/Task3/image/creating%20project2.PNG)
+
+How you have to select API 25 or 24
+and click on "Finish".

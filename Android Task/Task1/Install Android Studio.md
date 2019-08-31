@@ -50,3 +50,23 @@ Android Studio is the official Integrated Development Environment (IDE) for Andr
 ### For Linux :- [Install in Linux](https://developer.android.com/studio/install#linux)
 
 ### For Chrome OS :- [Install in Chrome Os](https://developer.android.com/studio/install#chrome-os)
+
+When you will see this screen
+
+![android start]()
+
+click on configure and then SDK Manager.
+
+![android config]()
+
+you will see SDK Manager click on Show Package Details
+On SDK Platforms tab select all the selected SDK Components of Android 7.1.1 (Nougat)
+
+### Note :- You have to install SDK Platform of Minimum API of 25
+
+![Sdk Manager platform]()
+
+And on SDK Tools tab Select all and click on "Apply"
+then accept the term and click "Ok"
+
+### !! Nice your Android Studio is installed successfully !!
