@@ -4,7 +4,11 @@
 
 To start you need a Github profile. if you don't have one [create here](https://github.com/join?source=header-home)
 
-Now on you github make a new repository, to make a new repository click on Plus Sign on top end. then click on "New Repository".
+Now on you github make a new repository, to make a new repository click on Plus Sign on top end.
+
+![new repo button]{<https://github.com/technojam/pre-membership-task/blob/master/Android%20Task/Task3/image/New%20repo.PNG}>
+
+Then click on "New Repository".
 
 Give name to your repo. and leave all other as it is.
 
