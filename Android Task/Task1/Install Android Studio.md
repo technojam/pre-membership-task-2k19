@@ -53,18 +53,18 @@ Android Studio is the official Integrated Development Environment (IDE) for Andr
 
 When you will see this screen
 
-![android start]()
+![android start](https://github.com/technojam/pre-membership-task/blob/master/Android%20Task/Task3/image/android%20start.PNG)
 
 click on configure and then SDK Manager.
 
-![android config]()
+![android config](https://github.com/technojam/pre-membership-task/blob/master/Android%20Task/Task3/image/config%20android.PNG)
 
 you will see SDK Manager click on Show Package Details
 On SDK Platforms tab select all the selected SDK Components of Android 7.1.1 (Nougat)
 
 ### Note :- You have to install SDK Platform of Minimum API of 25
 
-![Sdk Manager platform]()
+![Sdk Manager platform](https://github.com/technojam/pre-membership-task/blob/master/Android%20Task/Task3/image/SDK%20manager%20Platform.PNG)
 
 And on SDK Tools tab Select all and click on "Apply"
 then accept the term and click "Ok"
