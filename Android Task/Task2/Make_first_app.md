@@ -62,4 +62,4 @@ and put the "From Name", "To Name" and  "Message" on it.
 
 ### !! You have Successfully completed Task 2 !!
 
-### [Previous Task](https://github.com/technojam/pre-membership-task/blob/master/Android%20Task/Task1/Install%20Android%20Studio.md)                                        [Next Task](https://github.com/technojam/pre-membership-task/blob/master/Android%20Task/Task3/Push_App_To_Github.md)
+### [Previous Task](https://github.com/technojam/pre-membership-task/blob/master/Android%20Task/Task1/Install%20Android%20Studio.md)_____________________________________________________________________[Next Task](https://github.com/technojam/pre-membership-task/blob/master/Android%20Task/Task3/Push_App_To_Github.md)
