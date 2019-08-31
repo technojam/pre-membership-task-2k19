@@ -28,6 +28,10 @@ in this you will also learn how to make multi-activity app and how to go from on
 
 ## Second Step
 
+Befor going to next step you have to make your repo on github for that.
+
+[click here](https://github.com/technojam/pre-membership-task/tree/master/Android%20Task/Task3)
+
 Now after doing above course you have to make an app in which there are two activitys
 in first activity you will take information from user, and in second activity you have to
 generate a birthday card.
