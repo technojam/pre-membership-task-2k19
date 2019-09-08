@@ -18,9 +18,16 @@ You need these things to complete to task.
 
 [Learn Git & Github](https://www.youtube.com/playlist?list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR)
 
+
 ### Task Steps
+
+Make sure to go through all the resources
+
 - Create a directory/folder.
 - Write Code in that directory.
 - Put your images in a sub directory  for ex:`/img`.
 - Put all JS files in a sub directory for ex: `/js`.
 - Put all CSS files in a sub directory for ex: `/css`.
+- Create a repository on GitHub.
+- Push code on GitHub using git.
+
