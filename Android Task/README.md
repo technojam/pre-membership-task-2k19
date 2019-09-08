@@ -1,6 +1,10 @@
 # System requirements to install Android studio
 
-!! Note !! If you don't have required system spec. please try to do other task [Web](https://github.com/technojam/pre-membership-task/tree/master/Web%20Development) or VUI.
+!! Note !! 
+
+If you don't have required system spec. please try to do other task [Web](https://github.com/technojam/pre-membership-task/tree/master/Web%20Development) or VUI.
+
+Don't change any file in the task. 
 
 # For Windows
 
