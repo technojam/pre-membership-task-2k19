@@ -1,5 +1,7 @@
 # Android Devlopment Start from installing Android Studio
 
+![Image of Android](https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/b83fcb70-e274-44ed-9496-8d6756da979e)
+
 ## What is Android Studio
 
 Android Studio is the official Integrated Development Environment (IDE) for Android app development, based on IntelliJ IDEA . On top of IntelliJ's powerful code editor and developer tools, Android Studio offers even more features that enhance your productivity when building Android apps, such as:
