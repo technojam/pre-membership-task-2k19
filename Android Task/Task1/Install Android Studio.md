@@ -75,4 +75,4 @@ then accept the term and click "Ok"
 
 ### !! You have Successfully completed Task 1 !!
 
-### _________________________________________________________________________________________[Next Task](https://github.com/technojam/pre-membership-task/blob/master/Android%20Task/Task2/Make_first_app.md)
+### __________________________________________________________________________________________[Next Task](https://github.com/technojam/pre-membership-task/blob/master/Android%20Task/Task2/Make_first_app.md)
