@@ -6,7 +6,7 @@
 
     Microsoft® Windows® 7/8/10 (32- or 64-bit)
     
-    The Android Emulator only supports 64-bit Windows (learn more).
+    The Android Emulator only supports 64-bit Windows
     
     8 GB RAM minimum, 12 GB RAM recommended
     
