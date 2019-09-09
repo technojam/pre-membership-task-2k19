@@ -12,4 +12,4 @@ ___
 
 That's it. Completely these tasks and show what you have done during auditions. (Don't forget to bring your laptop)
 
-(NOTE: You don't need to publish this, but if you want to publish this action, feel free to do so)
+NOTE: You don't need to publish this, but if you want to publish this action, feel free to do so

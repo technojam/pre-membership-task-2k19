@@ -139,6 +139,7 @@ exports.googleAction = functions.https.onRequest(app);
 ```
 cd functions
 npm install
+cd ..
 ```
 - After that, type:
 ```
