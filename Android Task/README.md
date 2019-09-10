@@ -2,7 +2,7 @@
 
 !! Note !! 
 
-If you don't have required system spec. please try to do other task [Web](https://github.com/technojam/pre-membership-task/tree/master/Web%20Development) or VUI.
+If you don't have required system spec. please try to do other task [Web](https://github.com/technojam/pre-membership-task/tree/master/Web%20Development) or [VUI](https://github.com/technojam/pre-membership-task/tree/master/VUI).
 
 Don't change any file in the task. 
 
@@ -76,3 +76,4 @@ Recommended devices:
     HP: Chromebook x360 14, Chromebox G2
     Dell: Inspiron Chromebook 14
     
+If you have the required system specifications proceed to [installation](https://github.com/technojam/pre-membership-task/blob/master/Android%20Task/Task1/Install%20Android%20Studio.md) 

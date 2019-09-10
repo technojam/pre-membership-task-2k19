@@ -25,7 +25,7 @@ firebase login
 
 - Run the following command on terminal to change directory
 ```
-cd desktop/temp
+cd desktop/AOG
 ```
 - Run Following commands to initialize the project
 ```
@@ -76,7 +76,7 @@ cd desktop/temp
  ![](IMG/data.gif)
 
  ### Step 6 Coding
- - Go to directory where you initialize firebase project.(Desktop/temp)
+ - Go to directory where you initialize firebase project.(Desktop/AOG)
  - Inside functions folder, click on index.js
  - Replace the code inside index.js with the following code
  ``` javascript
@@ -134,7 +134,7 @@ exports.googleAction = functions.https.onRequest(app);
   "private": true
 }
 ```
-- open terminal(make your directory is still desktop/temp)
+- open terminal(make your directory is still desktop/AOG)
 - Type following command
 ```
 cd functions

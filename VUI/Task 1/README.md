@@ -1,7 +1,7 @@
 # TASK 1
 ### Step 1: Initialize project
 
-- Open the Actions Console.
+- Open the [Actions Console.](https://console.actions.google.com)
 - Click New project.
 - Type in a Project name, like "technojam-task". This name is for your own internal reference; later on, you can set an external name for your project.
 
@@ -63,7 +63,7 @@ Now that you've built your Actions project, create a Dialogflow agent and associ
 - #### Add training phrases like:
 1. "capital of up"
 2. "tell me capital of up"
-3. "can you tell me capital of ap"
+3. "can you tell me capital of up"
 4. "up"
 5. "what is the capital of uttar pradesh"
 - Save
