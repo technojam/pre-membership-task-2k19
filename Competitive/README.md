@@ -55,7 +55,7 @@ Create a pull in the solutions folder of problem 0 with your solution in a file 
     Output: Not Balanced
 
 ## Question 4: Write a function which takes n is input and returns the corresponding nth fibonacci number.
-    NOTE: You have to using recursion.
+    NOTE: You have to use recursion.
           You have to make sure program works even for 100th fibonacci number.
 
 ## Question 5: Write a function to find the sum of all the leaf node of a binary tree, you are given root of the tree.
