@@ -59,6 +59,13 @@ Create a pull in the solutions folder of problem 0 with your solution in a file 
           You have to make sure program works even for 100th fibonacci number.
 
 ## Question 4: Write a function to find the sum of all the leaf node of a binary tree, you are given root of the tree.
+                10
+              /    \
+            20     30
+           /      /  \
+          40     50   60
+
+          Result : 40 + 50 + 60 = 150.
 
 
 
