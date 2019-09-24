@@ -17,36 +17,36 @@ Create a pull in the solutions folder of problem 0 with your solution in a file 
 
 
 
-Question 1: Understand the pattern and write the code accordingly.
+## Question 1: Understand the pattern and write the code accordingly.
 
-#size 3
+    #size 3
 
-----c----
---c-b-c--
-c-b-a-b-c
---c-b-c--
-----c----
+    ----c----
+    --c-b-c--
+    c-b-a-b-c
+    --c-b-c--
+    ----c----
 
-#size 5
+    #size 5
 
---------e--------
-------e-d-e------
-----e-d-c-d-e----
---e-d-c-b-c-d-e--
-e-d-c-b-a-b-c-d-e
---e-d-c-b-c-d-e--
-----e-d-c-d-e----
-------e-d-e------
---------e--------
+    --------e--------
+    ------e-d-e------
+    ----e-d-c-d-e----
+    --e-d-c-b-c-d-e--
+    e-d-c-b-a-b-c-d-e
+    --e-d-c-b-c-d-e--
+    ----e-d-c-d-e----
+    ------e-d-e------
+    --------e--------
 
 
-Question 2: Write a function to check if a linked list has a loop.
+## Question 2: Write a function to check if a linked list has a loop.
 
     * The function accepts start of the linked list.
     * The function returns corresponding boolean value.
 
 
-Question 3: Write a function to check if the parentheses in an expression is balanced or not. [Using Stack].
+## Question 3: Write a function to check if the parentheses in an expression is balanced or not. [Using Stack].
 
     Input: exp = “[()]{}{[()()]()}”
     Output: Balanced
@@ -54,11 +54,11 @@ Question 3: Write a function to check if the parentheses in an expression is bal
     Input: exp = “[(])”
     Output: Not Balanced
 
-Question 4: Write a function which takes n is input and returns the corresponding nth fibonacci number.
-            NOTE: You have to using recursion.
-                  You have to make sure program works even for 100th fibonacci number.
+## Question 4: Write a function which takes n is input and returns the corresponding nth fibonacci number.
+    NOTE: You have to using recursion.
+          You have to make sure program works even for 100th fibonacci number.
 
-Question 5: Write a function to find the sum of all the leaf node of a binary tree, you are given root of the tree.
+## Question 5: Write a function to find the sum of all the leaf node of a binary tree, you are given root of the tree.
 
 
 
