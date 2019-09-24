@@ -17,7 +17,7 @@ Create a pull in the solutions folder of problem 0 with your solution in a file 
 
 
 
-## Question 1: Understand the pattern and write the code accordingly.
+## Question 0: Understand the pattern and write the code accordingly.
 
     #size 3
 
@@ -40,13 +40,13 @@ Create a pull in the solutions folder of problem 0 with your solution in a file 
     --------e--------
 
 
-## Question 2: Write a function to check if a linked list has a loop.
+## Question 1: Write a function to check if a linked list has a loop.
 
     * The function accepts start of the linked list.
     * The function returns corresponding boolean value.
 
 
-## Question 3: Write a function to check if the parentheses in an expression is balanced or not. [Using Stack].
+## Question 2: Write a function to check if the parentheses in an expression is balanced or not. [Using Stack].
 
     Input: exp = “[()]{}{[()()]()}”
     Output: Balanced
@@ -54,11 +54,11 @@ Create a pull in the solutions folder of problem 0 with your solution in a file 
     Input: exp = “[(])”
     Output: Not Balanced
 
-## Question 4: Write a function which takes n is input and returns the corresponding nth fibonacci number.
+## Question 3: Write a function which takes n is input and returns the corresponding nth fibonacci number.
     NOTE: You have to use recursion.
           You have to make sure program works even for 100th fibonacci number.
 
-## Question 5: Write a function to find the sum of all the leaf node of a binary tree, you are given root of the tree.
+## Question 4: Write a function to find the sum of all the leaf node of a binary tree, you are given root of the tree.
 
 
 
