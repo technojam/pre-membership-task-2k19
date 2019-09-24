@@ -54,7 +54,7 @@ Create a pull in the solutions folder of problem 0 with your solution in a file 
     Input: exp = “[(])”
     Output: Not Balanced
 
-## Question 3: Write a function which takes n is input and returns the corresponding nth fibonacci number.
+## Question 3: Write a function which takes n as input and returns the corresponding nth fibonacci number.
     NOTE: You have to use recursion.
           You have to make sure program works even for 100th fibonacci number.
 
