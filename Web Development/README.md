@@ -1,7 +1,13 @@
 # Web Development Task Details
 Create a website which looks same as the image provided below.
 
-image
+Image will be added soon! Till then, refer to the resources to learn.
+
+## Mentorship Channel
+
+[Slack Invite Link](https://bit.ly/tj-slack)
+
+Join [#web-development](http://technojam-hub.slack.com) Channel on Slack.
 
 ## Resources
 You need these things to complete to task.
