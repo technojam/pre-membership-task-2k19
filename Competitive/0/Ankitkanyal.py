@@ -5,14 +5,14 @@ print("Enter the value of nr")
 nr=int(input())
 print("Enter the value of dr")
 dr=int(input())
-print("The entered fraction is:",nr,"/",dr)
+print("The entered fraction is:{0}/{1}".format(nr,dr))
+print("The Egyption Frcation representation of {0}/{1} is:".format(nr,dr))
 li=[]
 while(nr!=0):
     fr=math.ceil(dr/nr)
     li.append(fr)
     nr=nr*fr-dr
     dr=fr*dr
-print("The Egyption Frcation representation of {0}/{1} is:".format(nr,dr),end="")
 
 for i in range(len(li)):
     if(i<len(li)-1):
