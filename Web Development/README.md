@@ -1,7 +1,8 @@
 # Web Development Task Details
-Create a website which looks same as the image provided below.
 
-Image will be added soon! Till then, refer to the resources to learn.
+Refer the resources and learn.
+After completing the resources start building your portfolio website.
+We will update the pushing instructions soon.
 
 ## Mentorship Channel
 

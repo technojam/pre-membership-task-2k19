@@ -3,11 +3,8 @@ Welcome batch of 2019-2023
 
 This is the task repo for Membership of Team TechnoJam
 
-For 1st year students, You only need to complete any one of the following task 
-
-For other students you need to complete the Competitive Path 
-
-<b> Note: 1st Year students are required to choose between `VUI`, `Web` or `Android`. `Competitive` is for 2nd or 3rd year students only. </b>
+<b> Note:For 1st Year students You only need to complete any one of the tracks between `VUI`, `Web`,`Competitive` or `Android`.
+2nd or 3rd year students should complete the `Competitive` Track only. </b>
 
 1) [VUI](https://github.com/technojam/pre-membership-task/tree/master/VUI)
 
