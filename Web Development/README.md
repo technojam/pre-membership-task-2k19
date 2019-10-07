@@ -1,7 +1,7 @@
 # Web Development Task Details
 
 Refer the resources and learn.
-After completing the resources start building your portfolio website.
+After completing the resources start building your <b>portfolio website</b>.
 We will update the pushing instructions soon.
 
 ## Mentorship Channel
