@@ -64,12 +64,13 @@ so you have to put your project name at the end of your folder location in save 
 
 ![save location](https://github.com/technojam/pre-membership-task/blob/master/Android%20Task/Task3/image/creating%20project2.PNG)
 
-How you have to select API 25.
+Now you have to select API 25.
 and click on "Finish"
 
 ### Now You Are Ready to make your project [click here](https://github.com/technojam/pre-membership-task/blob/master/Android%20Task/Task2/Make_first_app.md) to know what you have to make
 
 ## How to Push your code
+
 
 ### You have Successfully completed Task 3
 
