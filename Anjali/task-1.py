@@ -22,3 +22,40 @@ For example, if the starting position is 10 and the sequence is 5 then 6, people
 10, 15, 21, 1, 7, 12, 18, 23, 4, etc...
 ### NB: You must still model the landscape outside of this 5⨉5 section.
 ### Migrations can still cause movements out of and into this section.
+mat={}
+def change(a):
+    x,y=a
+    if a not in mat:
+        mat[a]=0
+    if mat[a]>=4:
+        mat[a]=1
+        change((x+1,y))
+        change((x-1,y))
+        change((x,y+1))
+        change((x,y-1))
+    else:
+        mat[a]+=1
+def add_input(x,y,n):
+    mat[(x,y)]=n
+print("Input 3 values x,y cordinates and number of person in (x,y) interval n")
+print("#value of n should not exceed 4")
+while True:
+    c=input("You wanna to add input? [yes]/no: ")
+    if c=='yes':
+        x=int(input("Enter value of x: "))
+        y=int(input("Enter value of y: "))
+        print("Enter number of person in ({},{}): ".format(x,y))
+        n=int(input())
+        add_input(x,y,n)
+
+    elif c=='no':
+        break
+    else:
+        print("Invalid input")
+        continue
+print("Enter the value of x and y in which you want to add 1 more person")
+x=int(input("Enter x: "))
+y=int(input("Enter y: "))
+change((x,y))
+print("Solution:- ")
+print(mat)
