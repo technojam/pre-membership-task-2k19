@@ -19,6 +19,21 @@
     ----e-d-c-d-e----
     ------e-d-e------
     --------e--------
+SOLUTION:
+import string
+def pattern(n):
+    alpha = string.ascii_lowercase
+    l=[]
+    for i in range(n):
+        s = '-'.join(alpha[i:n])
+        l.append((s[::-1]+s[1:]).center(4*n-3,'-'))
+    b=reversed(l[1:])
+    print("\n".join(b), "\n".join(l), sep = "\n")
+t=int(input("Enter the size: "))
+pattern(t)
+
+    
+
 
 ### Question 1: Understand the pattern and write the code accordingly.
 
@@ -43,5 +58,18 @@
     NOTE: You have to use recursion.
           You have to make sure program works even for 100th fibonacci number.
 
+SOLUTION:
+def fib(n):
+    if(n<=1):
+        return n
+    else:
+        return fib(n-1)+fib(n-2)
+t=int(input("Enter the number: "))
+if  t<= 0:
+   print("Plese enter a positive integer")
+else:
+   print("Fibonacci series:")
+   for i in range(t):
+       print(fib(i))
 
 
