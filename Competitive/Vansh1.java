@@ -1,4 +1,4 @@
-// Question 1
+// Question 1 Audition Problem 1
 import java.util.*;
 class mig
 {
@@ -10,7 +10,7 @@ class mig
         int n=ab.nextInt();
         int sv=ab.nextInt();
         int [][] a=new int[5][5];
-        int x,y,q=1,z,x1,y1;
+        int x,y,q=1,z,x1,y1,l;
         for(x=0;x<5;x++)
         {
             for(y=0;y<5;y++)
@@ -21,7 +21,7 @@ class mig
             }
         }
         q=1;
-        for(z=0;z<sv;z++)
+        do
         {
             p=p+s;
             for(x=0;x<5;x++)
@@ -30,13 +30,16 @@ class mig
                 {
                     if(a[x][y]>=4)
                     {
-                        a[x][y]=a[x][y]-4;
+                        l=a[x][y]/4;
+                        a[x][y]=a[x][y]%4;
                         try
                         {
-                            a[x-1][y]++;
-                            a[x][y-1]++;
-                            a[x+1][y]++;
-                            a[x][y+1]++;
+                            a[x-1][y]=l;
+                            a[x][y-1]=l;
+                            a[x+1][y]=l;
+                            a[x][y+1]=l;
+                            x--;
+                            y--;
                         }
                         catch(Exception e)
                         {}
@@ -56,7 +59,8 @@ class mig
                 }
             }
             q=1;
-        }
+            sv--;
+        }while(sv>=0);
         for(x=0;x<5;x++)
         {
             for(y=0;y<5;y++)
