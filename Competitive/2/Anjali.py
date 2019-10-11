@@ -60,16 +60,15 @@ pattern(t)
 
 SOLUTION:
 def fib(n):
-    if(n<=1):
-        return n
+    if(n<0):
+        print("Invalid Input")
+    elif(n==1):
+        return 0
+    elif(n==2):
+        return 1
     else:
         return fib(n-1)+fib(n-2)
 t=int(input("Enter the number: "))
-if  t<= 0:
-   print("Plese enter a positive integer")
-else:
-   print("Fibonacci series:")
-   for i in range(t):
-       print(fib(i))
+print(fib(i))
 
 
