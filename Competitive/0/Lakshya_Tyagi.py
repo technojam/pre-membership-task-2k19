@@ -51,3 +51,28 @@ for i in range(1, n+1):
 
     res=res-(i+1)
     print()
+
+    
+  Question 2: Write a function which takes n as input and returns the corresponding nth fibonacci number.
+    
+  n=int(input("Enter number: "))
+def memo(f):
+    a = {}
+    def need(x):
+        if x not in a:            
+            a[x] = f(x)
+        return a[x]
+    return need
+    
+
+def Fibonacci(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return Fibonacci(n-1) + Fibonacci(n-2)
+
+Fibonacci = memo(Fibonacci)
+
+print(Fibonacci(n))
