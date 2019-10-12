@@ -34,10 +34,10 @@ class mig
                         a[x][y]=a[x][y]%4;
                         try
                         {
-                            a[x-1][y]=l;
-                            a[x][y-1]=l;
-                            a[x+1][y]=l;
-                            a[x][y+1]=l;
+                            a[x-1][y]+=l;
+                            a[x][y-1]+=l;
+                            a[x+1][y]+=l;
+                            a[x][y+1]+=l;
                             x--;
                             y--;
                         }
