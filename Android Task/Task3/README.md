@@ -75,13 +75,13 @@ Fork the Pre-Membership-task repo from technojam.
 
 clone the forked repo to your local system using [git clone].
 
-## if you have already forked and clone then ignor the above steps
+## If you have already forked and clone then ignor the above steps
 
 Now go to android task and then open submit your project folder.
 
 Now create the new folder of your name and paste the project you have made inside your folder.
 
-## after pasting
+## After pasting
 
 Go to your Pre-Membership-task folder open git bash and check status using [git status].
 
@@ -101,7 +101,7 @@ Now push the change using [git push origin master].
 -----------------------------------------OR-----------------------------------------------
 
 
-Click on commit button in top left of android studio.
+Click on commit button[green tic] in top left of android studio.
 
 ![git commitbutton](https://github.com/technojam/pre-membership-task/blob/master/Android%20Task/Task3/image/git%20commit%20button.PNG)
 
