@@ -71,6 +71,38 @@ and click on "Finish"
 
 ## How to Push your code
 
+Fork the Pre-Membership-task repo from technojam.
+
+clone the forked repo to your local system using [git clone].
+
+## if you have already forked and clone then ignor the above steps
+
+Now go to android task and then open submit your project folder.
+
+Now create the new folder of your name and paste the project you have made inside your folder.
+
+## after pasting
+
+Go to your Pre-Membership-task folder open git bash and check status using [git status].
+
+Now add your change using [git add . (use to add all files), git add file_name(use to add a file)].
+
+Now commit your change using [git commit -m"commit comment"].
+
+Now push the change using [git push origin master].
+
+-----------------------------------------OR-----------------------------------------------
+
+click on commit button in top left of android studio.
+
+select the file you want to commit, enter the commit message and enter the auther(your github userid).
+click on commit button.
+
+now open terminal in android studio.
+
+and enter the git command to push [git push origin master] and hit enter.
+
+Now go to your github account and open the repo which you have forked from technojam and click on make pull requests to submit.
 
 ### You have Successfully completed Task 3
 
