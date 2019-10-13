@@ -85,22 +85,38 @@ Now create the new folder of your name and paste the project you have made insid
 
 Go to your Pre-Membership-task folder open git bash and check status using [git status].
 
+![git status](https://github.com/technojam/pre-membership-task/blob/master/Android%20Task/Task3/image/git%20status.PNG)
+
 Now add your change using [git add . (use to add all files), git add file_name(use to add a file)].
 
 Now commit your change using [git commit -m"commit comment"].
 
+![git commit](https://github.com/technojam/pre-membership-task/blob/master/Android%20Task/Task3/image/git%20commit.PNG)
+
 Now push the change using [git push origin master].
+
+![git push](https://github.com/technojam/pre-membership-task/blob/master/Android%20Task/Task3/image/git%20push.PNG)
+
 
 -----------------------------------------OR-----------------------------------------------
 
-click on commit button in top left of android studio.
 
-select the file you want to commit, enter the commit message and enter the auther(your github userid).
+Click on commit button in top left of android studio.
+
+![git commitbutton](https://github.com/technojam/pre-membership-task/blob/master/Android%20Task/Task3/image/git%20commit%20button.PNG)
+
+Select the file you want to commit, enter the commit message and enter the auther(your github userid).
 click on commit button.
 
-now open terminal in android studio.
+![git commit dil](https://github.com/technojam/pre-membership-task/blob/master/Android%20Task/Task3/image/commit%20di.PNG)
+
+Now open terminal in android studio.
+
+![git terminal](https://github.com/technojam/pre-membership-task/blob/master/Android%20Task/Task3/image/git%20termi.PNG)
 
 and enter the git command to push [git push origin master] and hit enter.
+
+![git push](https://github.com/technojam/pre-membership-task/blob/master/Android%20Task/Task3/image/git%20push%20ter.PNG)
 
 Now go to your github account and open the repo which you have forked from technojam and click on make pull requests to submit.
 
