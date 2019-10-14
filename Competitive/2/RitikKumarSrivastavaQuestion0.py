@@ -1,31 +1,3 @@
-'''
-Alphabet Rangoli
-
-  Rangoli is a form of Indian folk art
-  based on creation of patterns.
-    
-    Rangoli of size 3:
-    
-    ----c----
-    --c-b-c--
-    c-b-a-b-c
-    --c-b-c--
-    ----c----
-    
-  Here's my version of Alphabet Rangoli
-  implementation. Have fun and please
-  share your comments..
-  
-  Constraints:
-    Enter a natural number n,
-    the size of rangoli: 0 < n < 27
-  
-  Screen size limitations:
-    If you run this code on your smartphone,
-    the result may become unreadable.
-    Please try 0 < n < 11.
-'''
-
 err="Please, enter a natural number n<27 and try again..."
 
 try:
