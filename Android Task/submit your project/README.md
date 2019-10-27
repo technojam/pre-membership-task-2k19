@@ -1,1 +1,2 @@
-In this folder you have to create a new folder of your name and put your project on it.
+# TechnojamAndroid
+ Proof of concept Android app for Technojam pre membership task.

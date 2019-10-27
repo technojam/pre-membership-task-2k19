@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Birthday Card Generator</string>
+    <string name="submitbtn">Generate!</string>
+    <string name="fromName">no input</string>
+    <string name="toName">no input</string>
+    <string name="wish">With you, it is always about bringing in fun, in more ways than one, come rain come sun, just fun. Happy Birthday!</string>
+</resources>
