@@ -10,6 +10,7 @@ import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.util.DisplayMetrics;
 import android.widget.TextView;
 
 public class CardActivity extends AppCompatActivity{
@@ -50,7 +51,12 @@ public class CardActivity extends AppCompatActivity{
             } catch (Exception e) {
                 return;
             }
-        Drawable d = new BitmapDrawable(getResources(), bitmap);
+
+        DisplayMetrics display=this.getResources().getDisplayMetrics();
+
+        Bitmap bitmap2 =Bitmap.createScaledBitmap(bitmap, display.widthPixels,display.heightPixels, true);
+
+        Drawable d = new BitmapDrawable(getResources(), bitmap2);
         cs.setBackground(d);
 
     }
