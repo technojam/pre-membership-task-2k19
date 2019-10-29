@@ -1,5 +1,7 @@
 package com.technojamtask;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -10,6 +12,11 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
+
+import java.io.InputStream;
+
 
 public class MainActivity extends AppCompatActivity {
     public static final String EXTRA_WISHNAME1 = "com.technojamtask.EXTRA1";
@@ -17,11 +24,13 @@ public class MainActivity extends AppCompatActivity {
     public static final String EXTRA_WISH = "com.technojamtask.WISH";
     public static final String EXTRA_URI = "com.technojamtask.URI";
     public static final int PICK_IMAGE = 100;
-    Uri imageUri;
+
+    Uri imageUri = Uri.EMPTY;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        final CoordinatorLayout coordinatorLayout = findViewById(R.id.mainactivity);
 
         Button submit = findViewById(R.id.button);
         submit.setOnClickListener(new View.OnClickListener() {
@@ -31,9 +40,14 @@ public class MainActivity extends AppCompatActivity {
                 openCard();
                 else
 
-                    Toast.makeText(getApplicationContext(),"No Image",Toast.LENGTH_SHORT).show();
+                    showSnackBar();
+
             }
 
+            private void showSnackBar(){
+                Snackbar snackbar = Snackbar.make(coordinatorLayout, "Please select an image first!", Snackbar.LENGTH_LONG);
+                snackbar.show();
+            }
         });
 
         Button gal = findViewById(R.id.gallery);
@@ -41,6 +55,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 openGallery();
+            }
+        });
+
+        FloatingActionButton fab = findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+            openAbout();
             }
         });
 
@@ -54,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
         ImageView img = findViewById(R.id.card);
@@ -63,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
             img.setImageURI(imageUri);
         }
     }
+
 
     public void openCard() {
         EditText from = findViewById(R.id.fromName);
@@ -81,6 +105,14 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
+
+    public void openAbout(){
+
+        Intent intent = new Intent(this, info.class);
+        startActivity(intent);
+    }
+
+
 
 
 }
