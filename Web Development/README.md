@@ -1,7 +1,14 @@
 # Web Development Task Details
-Create a website which looks same as the image provided below.
 
-image
+Refer the resources and learn.
+After completing the resources start building your <b>portfolio website</b>.
+We will update the pushing instructions soon.
+
+## Mentorship Channel
+
+[Slack Invite Link](https://bit.ly/tj-slack)
+
+Join [#web-development](http://technojam-hub.slack.com) Channel on Slack.
 
 ## Resources
 You need these things to complete to task.
