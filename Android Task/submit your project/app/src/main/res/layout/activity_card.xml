@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/birthday"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over"
+    tools:context=".CardActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Happy Birthday"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/alex"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <TextView
+        android:id="@+id/toWish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toName"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="@font/alex"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.036" />
+
+    <TextView
+        android:id="@+id/wish"
+        android:layout_width="372dp"
+        android:layout_height="91dp"
+        android:text="@string/wish"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="@font/alex"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toWish"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <TextView
+        android:id="@+id/fromWish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fromName"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="@font/alex"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.891"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wish"
+        app:layout_constraintVertical_bias="0.044" />
+</androidx.constraintlayout.widget.ConstraintLayout>

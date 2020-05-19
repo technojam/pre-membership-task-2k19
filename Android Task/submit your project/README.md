@@ -1,1 +1,12 @@
-In this folder you have to create a new folder of your name and put your project on it.
+# TechnojamAndroid - MATERIAL 
+
+ Proof of concept Android app for Technojam pre membership task.
+ 
+# Download & Build
+Clone the project and come in:
+
+$ git clone https://github.com/KunalGhosh02/pre-membership-task/
+
+$ cd pre-membership-task/Android Task/submit your project
+
+$ ./gradlew build
